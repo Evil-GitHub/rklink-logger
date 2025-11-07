@@ -1,0 +1,25 @@
+{
+  "name": "@Evil-GitHub/rklink-logger",
+  "version": "1.0.0",
+  "description": "A simple logger for frontend applications.",
+  "keywords": [
+    "logger",
+    "frontend"
+  ],
+  "license": "ISC",
+  "author": "Evil-GitHub",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
