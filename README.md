@@ -17,7 +17,7 @@
 ## 📦 安装
 
 ```bash
-npm install @Evil-GitHub/rklink-logger
+npm install @rklink/rklink-logger
 ```
 
 **注意**: 由于这是一个发布在 GitHub Packages 上的私有包，您需要在项目的根目录下创建一个 `.npmrc` 文件，并添加以下内容，以确保 NPM 能正确找到并下载它：
@@ -33,7 +33,7 @@ npm install @Evil-GitHub/rklink-logger
 在您的代码中，直接导入 `logger` 实例即可使用。
 
 ```typescript
-import { logger } from "@Evil-GitHub/rklink-logger";
+import { logger } from "@rklink/rklink-logger";
 
 // 记录不同级别的日志
 logger.info("User logged in", { username: "test" });
@@ -86,6 +86,9 @@ function handleDownloadLogs() {
 
 ## 📜 更新日志
 
+### 1.0.5 (2025-11-10)
+*   **重构**: 发布到公共 NPM 仓库 (@rklink) 以实现免认证安装。
+
 ### v1.0.0 (2025-11-07)
 
 - 初始版本发布。
@@ -128,3 +131,9 @@ npm login --scope=@Evil-GitHub --registry=https://npm.pkg.github.com
 ```bash
 npm publish
 ```
+
+## 📜 更新日志
+
+### 1.0.5 (2025-11-10)
+*   **重构**: 发布到公共 NPM 仓库 (@rklink) 以实现免认证安装。
+

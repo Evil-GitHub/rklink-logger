@@ -1,13 +1,13 @@
 {
-  "name": "@evil-github/rklink-logger",
-  "version": "1.0.2",
+  "name": "@rklink/rklink-logger",
+  "version": "1.0.5",
   "description": "A simple logger for frontend applications.",
   "keywords": [
     "logger",
     "frontend"
   ],
   "license": "ISC",
-  "author": "Evil-GitHub",
+  "author": "Evil",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -19,8 +19,5 @@
   "devDependencies": {
     "tsup": "^8.5.0",
     "typescript": "^5.9.3"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
