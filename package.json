@@ -1,6 +1,6 @@
 {
   "name": "@rklink/rklink-logger",
-  "version": "1.0.8",
+  "version": "1.0.7",
   "description": "A simple logger for frontend applications.",
   "keywords": [
     "logger",
@@ -15,7 +15,7 @@
     "dist"
   ],
   "scripts": {
-    "prepublishOnly": "npm version patch && yarn build",
+    "prepublishOnly": "yarn build",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
