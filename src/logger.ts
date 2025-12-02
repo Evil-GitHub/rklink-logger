@@ -98,7 +98,7 @@ class Logger {
     };
   }
 
-  private getLogs(): LogEntry[] {
+  public getLogs(): LogEntry[] {
     if (!this.enabled) return [];
     const raw = this.safeLocalStorageGet(this.storageKey);
     if (!raw) return [];
